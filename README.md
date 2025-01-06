@@ -41,7 +41,7 @@ Please make a PR!
 * [deye](https://github.com/klatremis/esphome-for-deye): Monitor and control your Deye inverters.
 * [powmr-hybrid-inverter](https://github.com/odya/esphome-powmr-hybrid-inverter): Monitor and control various PowMr Inverter modules.
 * [smg-ii](https://github.com/syssi/esphome-smg-ii): Monitor and control a iSolar/EASUN SMG II inverter.
-* [VictronMPPT](https://github.com/KinDR007/VictronMPPT-ESPHOME): Monitor and control a Victron Charge Controller
+* [VictronMPPT](https://github.com/KinDR007/VictronMPPT-ESPHOME): Monitor and control Victron Devices such as a Solar Charge Controller.
 
 ## Environment
 
