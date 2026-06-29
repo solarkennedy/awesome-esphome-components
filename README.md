@@ -48,6 +48,7 @@ Please make a PR!
 
 * [mitsubishiheatpump](https://github.com/geoffdavis/esphome-mitsubishiheatpump): Interface with your Mitsubishi Heatpump for automated climate control.
 * [panasonic-ac](https://github.com/DomiStyle/esphome-panasonic-ac): Interface with your Panasonic Air Conditioner without their "cloud".
+* [panasonic-erv](https://github.com/ShadowZZP/esphome-panasonic-erv): Control your Panasonic ERV / fresh-air heat-recovery ventilator (新风) over its private CN12 bus, no cloud or OEM module needed.
 * [ecodan](https://github.com/gekkekoe/esphome-ecodan-hp): Interface with your Ecodan heatpump.
 * [aux_ac](https://github.com/GrKoR/esphome_aux_ac_component): Direct wifi control of your AUX based air conditioners.
 * [OpenTherm](https://github.com/arthurrump/esphome-opentherm): Control your OpenTherm-based thermostat from ESPHome.
