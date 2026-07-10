@@ -83,6 +83,7 @@ Please make a PR!
 
 ## Misc Appliances
 
+* [pumpsaver](https://github.com/lizbit-official/esphome-pumpsaver): Read live volts/amps/watts, trip settings, and the 20-fault history from a SymCom/Littelfuse PumpSaver well-pump protection relay, passively, over its IR status broadcast.
 * [Philips-Smart-Coffee](https://github.com/TillFleisch/ESPHome-Philips-Smart-Coffee): Control your Philips Series 2200/3200 Coffee Machines.
 * [jura coffee](https://github.com/ryanalden/esphome-jura-component): Control your Jura Impressa class coffee machines.
 * [Tesla BLE](https://github.com/yoziru/esphome-tesla-ble): Interface with your Tesla over BLE.
