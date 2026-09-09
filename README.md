@@ -81,6 +81,16 @@ Please make a PR!
 
 * [TMC2208](https://github.com/slimcdk/esphome-custom-components/blob/master/esphome/components/tmc2208/README.md) & [TMC2209](https://github.com/slimcdk/esphome-custom-components/blob/master/esphome/components/tmc2209/README.md): Component for Trinamic stepper motor drivers
 
+## Vehicles
+
+* [fiido-bms](https://github.com/dzikus/esphome-fiido-bms): Read a Fiido ebike's BMS over BLE and control power, light, gear and speed limit, without the Fiido app.
+* [xbot](https://github.com/dzikus/esphome-xbot): Read telemetry and settings from electric scooters built on the OEM XBOT / LebiTEC controller over BLE, and write the settings back.
+
+## Health / Personal Care
+
+* [omron](https://github.com/dzikus/esphome-omron): Pull blood pressure readings out of an Omron BLE cuff's memory, with no Omron cloud account and no phone app.
+* [oclean](https://github.com/dzikus/esphome-oclean): Battery, dock state and buffered brushing sessions from an Oclean BLE toothbrush, plus brushing mode, language and brush-head reminder control.
+
 ## Misc Appliances
 
 * [pumpsaver](https://github.com/lizbit-official/esphome-pumpsaver): Read live volts/amps/watts, trip settings, and the 20-fault history from a SymCom/Littelfuse PumpSaver well-pump protection relay, passively, over its IR status broadcast.
