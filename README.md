@@ -96,5 +96,6 @@ Please make a PR!
 * [pumpsaver](https://github.com/lizbit-official/esphome-pumpsaver): Read live volts/amps/watts, trip settings, and the 20-fault history from a SymCom/Littelfuse PumpSaver well-pump protection relay, passively, over its IR status broadcast.
 * [Philips-Smart-Coffee](https://github.com/TillFleisch/ESPHome-Philips-Smart-Coffee): Control your Philips Series 2200/3200 Coffee Machines.
 * [jura coffee](https://github.com/ryanalden/esphome-jura-component): Control your Jura Impressa class coffee machines.
+* [jura-uart-esphome](https://github.com/harryzz/jura-uart-esphome): Replace the Jura Smart Connect dongle with an ESP32 on the service port: counters, alerts, brew progress, brewing and panel lock over MQTT with HA discovery, using Jura's native dongle protocol and a built-in profile database for 75 machines.
 * [Tesla BLE](https://github.com/yoziru/esphome-tesla-ble): Interface with your Tesla over BLE.
 * [igrill](https://github.com/bendikwa/esphome-igrill): Read sensors from iGrill and Pulse BBQs.
