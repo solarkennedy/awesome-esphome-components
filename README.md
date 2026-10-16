@@ -20,6 +20,7 @@ Please make a PR!
 ## Network Protocols
 
 * [Telnet Server](https://github.com/RoboMagus/esphome-telnet-server): Adds a telnet bridge so that you can send and receive characters on the serial bus.
+* [uart-link](https://github.com/nebulous/esphome-uart-link): Present TCP connections as virtual UARTs for any UART consumer, bridge them to hardware UARTs, and share one serial bus between multiple TCP clients.
 * [syslog](https://github.com/TheStaticTurtle/esphome_syslog): Have your ESPHome device log out via the standard syslog protocol.
 * [Homekit](https://github.com/rednblkx/HAP-ESPHome): Make your ESPHome devices show up in your Apple Home app.
 * [LoRaWAN](https://github.com/moellere/lorawan-for-esphome): Join a LoRaWAN network over OTAA and uplink any ESPHome sensor's values, using RadioLib for the radio + MAC. For SX127x/SX126x radios.
