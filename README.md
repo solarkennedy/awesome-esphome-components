@@ -34,7 +34,8 @@ Please make a PR!
 * [OpenHaystack](https://github.com/barrenechea/esphome-config-files/tree/main/components/openhaystack): Puts your ESPHome device onto the Apple Find My network ([blog](https://www.barrenechea.cl/en/projects/openhaystack-esphome/)).
 * [BLE Keyboard](https://github.com/dmamontov/esphome-blekeyboard): Make your ESPHome device a virtual BLE keyboard.
 * [Qingping CGG3](https://github.com/OperKH/esphome-qingping-cgg3): Read temperature, humidity and battery level from the Qingping Temp & RH Monitor (CGG3) E-Ink thermometer over BLE, no bindkey needed.
-
+* [BLE ADV](https://github.com/Skrucz/esphome-components): ESPHome for various Chinese lamps that are controlled via BLE advertising
+  
 ## Distance / Presence Sensors
 
 * [Hi-Link mmWave Radar](https://github.com/patrick3399/Hi-Link_mmWave_Radar_ESPHome): Support for Hi-Link LD class millimeter wave radar modules.
@@ -68,6 +69,7 @@ Please make a PR!
 * [lg-controller](https://github.com/JanM321/esphome-lg-controller): Control your LG Air Conditioner instead of the LG ThinQ integration.
 * [mipurifier](https://github.com/jaromeyer/mipurifier-esphome): Component for Xiaomi Air Purification devices.
 * [HDMI-CEC](https://github.com/Palakis/esphome-native-hdmi-cec): ESPHome devices speak the (machine) language of your living room with this native HDMI-CEC (Consumer Electronics Control) component
+* [MIoT](https://github.com/dhewg/esphome-miot): ESPHome components are designed for MIoT devices 
   
 ## Light
 
