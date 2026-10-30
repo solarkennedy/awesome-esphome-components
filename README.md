@@ -27,7 +27,7 @@ Please make a PR!
 * [HydroNode](https://github.com/TexhFexLabs/hydronode-esphome): Send any ESPHome sensor to the HydroNode platform with HMAC-signed HTTPS uploads, and drive switches and scripts with typed remote commands.
 * [ntp-server](https://github.com/tiehfood/esphome-gps-pps-ntp-server): ESPHome GPS NTP server
 * [NUT Server](https://github.com/bullshit/esphome-components): ESPHome NUT Server Component
-
+* [SIP](https://github.com/n-IA-hane/esphome-voip-stack) ESPHome VoIP Stack
   
 ## Bluetooth/BLE
 
@@ -69,7 +69,8 @@ Please make a PR!
 * [lg-controller](https://github.com/JanM321/esphome-lg-controller): Control your LG Air Conditioner instead of the LG ThinQ integration.
 * [mipurifier](https://github.com/jaromeyer/mipurifier-esphome): Component for Xiaomi Air Purification devices.
 * [HDMI-CEC](https://github.com/Palakis/esphome-native-hdmi-cec): ESPHome devices speak the (machine) language of your living room with this native HDMI-CEC (Consumer Electronics Control) component
-* [MIoT](https://github.com/dhewg/esphome-miot): ESPHome components are designed for MIoT devices 
+* [MIoT](https://github.com/dhewg/esphome-miot): ESPHome components are designed for MIoT devices
+* [intercom](https://github.com/n-IA-hane/esphome-intercom) ESP32 intercoms and a provider or PBX trunk.
   
 ## Light
 
