@@ -27,7 +27,7 @@ Please make a PR!
 * [HydroNode](https://github.com/TexhFexLabs/hydronode-esphome): Send any ESPHome sensor to the HydroNode platform with HMAC-signed HTTPS uploads, and drive switches and scripts with typed remote commands.
 * [ntp-server](https://github.com/tiehfood/esphome-gps-pps-ntp-server): ESPHome GPS NTP server
 * [NUT Server](https://github.com/bullshit/esphome-components): ESPHome NUT Server Component
-
+* [SIP](https://github.com/n-IA-hane/esphome-voip-stack): ESPHome VoIP Stack
   
 ## Bluetooth/BLE
 
@@ -63,13 +63,17 @@ Please make a PR!
 * [ecodan](https://github.com/gekkekoe/esphome-ecodan-hp): Interface with your Ecodan heatpump.
 * [aux_ac](https://github.com/GrKoR/esphome_aux_ac_component): Direct wifi control of your AUX based air conditioners.
 * [OpenTherm](https://github.com/olegtarasov/esphome-opentherm): Control your OpenTherm-based thermostat from ESPHome.
+* [OpenTherm-otgw](https://github.com/mvdnes/esphome-otgw): ESPHome OpenTherm Gateway The OTGW project can be found here: https://otgw.tclcode.com/
+* [OpenTherm-otgw](https://github.com/gduteil/OpenThermGateway): ESPHome OpenTherm Gateway I'm using this hardware DIYLESS OpenTherm Gateway
+* [OpenTherm-otgw](https://github.com/KPWhiver/opentherm-gateway-esphome): This is an external esphome component to control a Nodoshop Opentherm Gateway.
 * [econet](https://github.com/esphome-econet/esphome-econet):  Controlling a Rheem water heater or HVAC system.
 * [Samsung HVAC](https://github.com/omerfaruk-aran/esphome_samsung_hvac_bus): Integrate with Samsung HVACs that use the NASA and NonNASA protocols.
 * [Nibe](https://github.com/elupus/esphome-nibe): Control your Nibe Heat Pump over Modbus.
 * [lg-controller](https://github.com/JanM321/esphome-lg-controller): Control your LG Air Conditioner instead of the LG ThinQ integration.
 * [mipurifier](https://github.com/jaromeyer/mipurifier-esphome): Component for Xiaomi Air Purification devices.
 * [HDMI-CEC](https://github.com/Palakis/esphome-native-hdmi-cec): ESPHome devices speak the (machine) language of your living room with this native HDMI-CEC (Consumer Electronics Control) component
-* [MIoT](https://github.com/dhewg/esphome-miot): ESPHome components are designed for MIoT devices 
+* [MIoT](https://github.com/dhewg/esphome-miot): ESPHome components are designed for MIoT devices
+* [intercom](https://github.com/n-IA-hane/esphome-intercom): ESP32 intercoms and a provider or PBX trunk.
   
 ## Light
 
