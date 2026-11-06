@@ -63,7 +63,7 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [Samsung HVAC](https://github.com/omerfaruk-aran/esphome_samsung_hvac_bus): Integrate with Samsung HVACs that use the NASA and NonNASA protocols.
 * [Nibe](https://github.com/elupus/esphome-nibe): Control your Nibe Heat Pump over Modbus.
 * [lg-controller](https://github.com/JanM321/esphome-lg-controller): Control your LG Air Conditioner instead of the LG ThinQ integration.
-* [HDMI-CEC](https://github.com/Palakis/esphome-native-hdmi-cec): ESPHome devices speak the (machine) language of your living room with this native HDMI-CEC (Consumer Electronics Control) component
+* [HDMI-CEC](https://github.com/Palakis/esphome-native-hdmi-cec): Make your ESPHome device show up as a named device on your TV and talk to the rest of your living room over HDMI-CEC. Mainline `hdmi_cec` now covers basic send and receive; this adds the automatic replies (physical address, OSD name) and message decoding.
 * [MIoT](https://github.com/dhewg/esphome-miot): ESPHome components are designed for MIoT devices
 * [intercom](https://github.com/n-IA-hane/esphome-intercom): ESP32 intercoms and a provider or PBX trunk.
   
