@@ -27,7 +27,7 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [uart-link](https://github.com/nebulous/esphome-uart-link): Present TCP connections as virtual UARTs for any UART consumer, bridge them to hardware UARTs, and share one serial bus between multiple TCP clients.
 * [Homekit](https://github.com/rednblkx/HAP-ESPHome): Make your ESPHome devices show up in your Apple Home app.
 * [LoRaWAN](https://github.com/moellere/lorawan-for-esphome): Join a LoRaWAN network over OTAA and uplink any ESPHome sensor's values, using RadioLib for the radio + MAC. For SX127x/SX126x radios.
-* [ntp-server](https://github.com/tiehfood/esphome-gps-pps-ntp-server): ESPHome GPS NTP server
+* [ntp-server](https://github.com/tiehfood/esphome-gps-pps-ntp-server): Serve NTP time on your network from a GPS module with PPS.
 * [NUT Server](https://github.com/bullshit/esphome-components/tree/main/components/nut_server): Serve UPS status to Network UPS Tools (NUT) clients.
 * [SIP](https://github.com/n-IA-hane/esphome-voip-stack): ESPHome VoIP Stack
   
@@ -47,8 +47,8 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [VictronMPPT](https://github.com/KinDR007/VictronMPPT-ESPHOME): Monitor and control Victron Devices such as a Solar Charge Controller.
 * [UPS HID](https://github.com/bullshit/esphome-components/tree/main/components/ups_hid): Monitor and control an APC, CyberPower or generic USB HID UPS from an ESP32-S3.
 * [dlms-cosem](https://github.com/latonita/esphome-dlms-cosem): ESPHome integration for DLMS/COSEM (SPODES) electricity meters (Energomera CE207/CE307/CE308, Milur 107S, MIR, Nartis, RiM, Pulsar, Aidon, Kamstrup, Landis+Gyr, any HAN, ZPA AM375, ZPA ZE312, Sagemcom XT211 and many others) via RS‑485 or optical port (*).
-* [mercury200.2](https://github.com/shammysha/esphome-mercury-200-2): ESPHome integration mercury 200.2
-* [apc-ups](https://github.com/samoswall/esphome-apc-ups): ESPHome component to monitor and control a APC UPS via RS232 with MQTT
+* [mercury200.2](https://github.com/shammysha/esphome-mercury-200-2): Read Mercury 200.2 electricity meters.
+* [apc-ups](https://github.com/samoswall/esphome-apc-ups): ESPHome component to monitor and control an APC UPS via RS232 with MQTT
   
 ## Environment
 
@@ -56,9 +56,9 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [panasonic-erv](https://github.com/ShadowZZP/esphome-panasonic-erv): Control your Panasonic ERV / fresh-air heat-recovery ventilator (新风) over its private CN12 bus, no cloud or OEM module needed.
 * [ecodan](https://github.com/gekkekoe/esphome-ecodan-hp): Interface with your Ecodan heatpump.
 * [aux_ac](https://github.com/GrKoR/esphome_aux_ac_component): Direct wifi control of your AUX based air conditioners.
-* [OpenTherm-otgw](https://github.com/mvdnes/esphome-otgw): ESPHome OpenTherm Gateway The OTGW project can be found here: https://otgw.tclcode.com/
-* [OpenTherm-otgw](https://github.com/gduteil/OpenThermGateway): ESPHome OpenTherm Gateway I'm using this hardware DIYLESS OpenTherm Gateway
-* [OpenTherm-otgw](https://github.com/KPWhiver/opentherm-gateway-esphome): This is an external esphome component to control a Nodoshop Opentherm Gateway.
+* [otgw](https://github.com/mvdnes/esphome-otgw): Read and control an [OpenTherm Gateway (OTGW)](https://otgw.tclcode.com/) over its serial interface.
+* [OpenThermGateway](https://github.com/gduteil/OpenThermGateway): Sit between your thermostat and boiler on hardware like the DIYLESS OpenTherm Gateway, with setpoint overrides.
+* [Nodoshop OpenTherm Gateway](https://github.com/KPWhiver/opentherm-gateway-esphome): Control a Nodoshop OpenTherm Gateway from a Wemos D1 mini.
 * [econet](https://github.com/esphome-econet/esphome-econet): Controlling a Rheem water heater or HVAC system.
 * [Samsung HVAC](https://github.com/omerfaruk-aran/esphome_samsung_hvac_bus): Integrate with Samsung HVACs that use the NASA and NonNASA protocols.
 * [Nibe](https://github.com/elupus/esphome-nibe): Control your Nibe Heat Pump over Modbus.
