@@ -88,10 +88,10 @@ Please make a PR!
     
 ## Garage / Security
 
-* [DSCKeyBus](https://github.com/Dilbert66/esphome-dsckeybus): For interfacing with a DSC POWERSERIES alarm system.
+* [DSCKeyBus](https://github.com/Dilbert66/esphome-components/tree/main/components/dsc_alarm_panel): For interfacing with a DSC POWERSERIES alarm system.
 * [Konnected](https://github.com/konnected-io/konnected-esphome): Bridge your Konnected alarm system or garage door openers.
 * [ratgdo](https://github.com/ratgdo/esphome-ratgdo): Enable sending commands to your garage door opener via your ESPHome device.
-* [vistaECP](https://github.com/Dilbert66/esphome-vistaECP): Control your Honeywell/Ademco Vista ECP security system.
+* [vistaECP](https://github.com/Dilbert66/esphome-components/tree/main/components/vista_alarm_panel): Control your Honeywell/Ademco Vista ECP security system.
 * [Nuki Lock](https://github.com/uriyacovy/ESPHome_nuki_lock): Seamless integration of Nuki Smartlocks into ESPHome / Home Assistant.
 * [TTLock](https://github.com/bazuchan/esphome-ttlock): This is a set of projects related to using TTLock locks locally with ESPHome
 * [homegate](https://github.com/ananyevgv/esphome-homegate): ESPHome gate homegate
