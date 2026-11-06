@@ -8,7 +8,7 @@ To use any of these components in _your_ ESPHome device, check out the documenta
 
 **Contributing:**
 
-Know if a cool ESPHome component that is missing?
+Know of a cool ESPHome component that is missing?
 Please make a PR!
 
 # Components
@@ -43,8 +43,8 @@ Please make a PR!
 ## Electricity Sensors
 
 * [emporia-vue](https://github.com/emporia-vue-local/esphome): Support for the Emporia Vue 2 energy monitor.
-* [JK-BMC](https://github.com/syssi/esphome-jk-bms): Interfaces with the Jikong Battery Management System over UART or BLE.
-* [p1reader](https://github.com/psvanstrom/esphome-p1reader): For interfacing with the Swidish P1 energy meters.
+* [JK-BMS](https://github.com/syssi/esphome-jk-bms): Interfaces with the Jikong Battery Management System over UART or BLE.
+* [p1reader](https://github.com/psvanstrom/esphome-p1reader): For interfacing with the Swedish P1 energy meters.
 * [pipsolar](https://github.com/syssi/esphome-pipsolar): Monitor and control a Pipsolar inverter via RS232.
 * [deye](https://github.com/klatremis/esphome-for-deye): Monitor and control your Deye inverters.
 * [powmr-hybrid-inverter](https://github.com/odya/esphome-powmr-hybrid-inverter): Monitor and control various PowMr Inverter modules.
@@ -66,7 +66,7 @@ Please make a PR!
 * [OpenTherm-otgw](https://github.com/mvdnes/esphome-otgw): ESPHome OpenTherm Gateway The OTGW project can be found here: https://otgw.tclcode.com/
 * [OpenTherm-otgw](https://github.com/gduteil/OpenThermGateway): ESPHome OpenTherm Gateway I'm using this hardware DIYLESS OpenTherm Gateway
 * [OpenTherm-otgw](https://github.com/KPWhiver/opentherm-gateway-esphome): This is an external esphome component to control a Nodoshop Opentherm Gateway.
-* [econet](https://github.com/esphome-econet/esphome-econet):  Controlling a Rheem water heater or HVAC system.
+* [econet](https://github.com/esphome-econet/esphome-econet): Controlling a Rheem water heater or HVAC system.
 * [Samsung HVAC](https://github.com/omerfaruk-aran/esphome_samsung_hvac_bus): Integrate with Samsung HVACs that use the NASA and NonNASA protocols.
 * [Nibe](https://github.com/elupus/esphome-nibe): Control your Nibe Heat Pump over Modbus.
 * [lg-controller](https://github.com/JanM321/esphome-lg-controller): Control your LG Air Conditioner instead of the LG ThinQ integration.
