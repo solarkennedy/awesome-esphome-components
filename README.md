@@ -110,7 +110,7 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 ## Sensor
 * [MQ](https://github.com/ananyevgv/esphome-components/tree/main/components/mq): Read MQ-series gas sensors.
 * [PM1006k](https://github.com/ananyevgv/esphome-components/tree/main/components/pm1006k): Read PM1.0, PM2.5 and PM10 from a Cubic PM1006K (mainline `pm1006` only reports PM2.5).
-* [Anemometer](https://github.com/ananyevgv/esphome-components/tree/main/components/cg_anem): Read wind speed from a CG_Anem anemometer.
+* 💤 [Anemometer](https://github.com/ananyevgv/esphome-components/tree/main/components/cg_anem): Read wind speed from a CG_Anem anemometer.
 * [Radsens](https://github.com/krbaker/esphome-radsens): ESPHome component for radiation sensor
 * [jhm1200](https://github.com/DJTerentjev/esphome_jhm1200): ESPHome component for pressure sensor
  
