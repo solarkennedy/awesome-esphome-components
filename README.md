@@ -38,6 +38,7 @@ Please make a PR!
   
 ## Distance / Presence Sensors
 
+* [ERDI laser rangefinder](https://github.com/ErdiTech/erdi-lrf-home-assistant): UART laser rangefinder / distance sensor modules (ERDI 905 nm LRF/LR series) as a Home Assistant distance sensor on ESP32/ESP8266, e.g. tank level or garage parking assist.
 * [Hi-Link mmWave Radar](https://github.com/patrick3399/Hi-Link_mmWave_Radar_ESPHome): Support for Hi-Link LD class millimeter wave radar modules.
 
 ## Electricity Sensors
