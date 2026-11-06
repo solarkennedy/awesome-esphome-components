@@ -76,7 +76,6 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [dmx512](https://github.com/andyboeh/esphome-dmx512): Control DMX devices via a RS485 UART.
 * [Matrix Lamp Music Leds / Sound Reactive](https://github.com/andrewjswan/esphome-components): Matrix Lamp Music Leds, Sound Reactive, Giver lamp
 * [Adaptive lighting](https://github.com/mdvorak/esphome-adaptive-lighting): Adaptive lighting component for ESPHome. It sets the light color temperature based on the current position of the sun.
-* [ujin](https://github.com/ananyevgv/esphome-ujin): Ujin Light device
 * [AC Dimmer](https://github.com/InspectorTrinket/advanced_ac_dimmer): An ESPHome external component for AC phase-angle dimming of mains-connected loads. Designed for real-world installations where timing precision, load compatibility, and flicker-free operation matter.
     
 ## Garage / Security
@@ -87,15 +86,10 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [vistaECP](https://github.com/Dilbert66/esphome-components/tree/main/components/vista_alarm_panel): Control your Honeywell/Ademco Vista ECP security system.
 * [Nuki Lock](https://github.com/uriyacovy/ESPHome_nuki_lock): Seamless integration of Nuki Smartlocks into ESPHome / Home Assistant.
 * [TTLock](https://github.com/bazuchan/esphome-ttlock): This is a set of projects related to using TTLock locks locally with ESPHome
-* [homegate](https://github.com/ananyevgv/esphome-homegate): ESPHome gate homegate
 
-## Vacuums
-
-* [BEAM](https://github.com/ananyevgv/esphome-beam): ESPHome BEAM vacuum cleaner
-  
 ## Actuators
 
-* [TMC2208](https://github.com/slimcdk/esphome-custom-components/blob/master/esphome/components/tmc2208/README.md) & [TMC2209](https://github.com/slimcdk/esphome-custom-components/blob/master/esphome/components/tmc2209/README.md): Component for Trinamic stepper motor drivers
+* [TMC2208](https://github.com/slimcdk/esphome-custom-components/tree/master/esphome/components/tmc2208): Drive a Trinamic TMC2208 stepper motor driver.
 
 ## Vehicles
 
