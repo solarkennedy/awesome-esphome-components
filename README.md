@@ -113,6 +113,7 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * 💤 [Anemometer](https://github.com/ananyevgv/esphome-components/tree/main/components/cg_anem): Read wind speed from a CG_Anem anemometer.
 * [Radsens](https://github.com/krbaker/esphome-radsens): ESPHome component for radiation sensor
 * [jhm1200](https://github.com/DJTerentjev/esphome_jhm1200): ESPHome component for pressure sensor
+* [ERDI laser rangefinder](https://github.com/ErdiTech/erdi-lrf-home-assistant): Read distance from ERDI 905 nm laser rangefinder modules over UART.
  
 ## Sniffer
 * [i2c_sniffer](https://github.com/hencou/esphome_components/tree/main/components/i2c_sniffer): Passively sniff traffic on an I²C bus.
