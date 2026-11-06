@@ -27,7 +27,6 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [uart-link](https://github.com/nebulous/esphome-uart-link): Present TCP connections as virtual UARTs for any UART consumer, bridge them to hardware UARTs, and share one serial bus between multiple TCP clients.
 * [Homekit](https://github.com/rednblkx/HAP-ESPHome): Make your ESPHome devices show up in your Apple Home app.
 * [LoRaWAN](https://github.com/moellere/lorawan-for-esphome): Join a LoRaWAN network over OTAA and uplink any ESPHome sensor's values, using RadioLib for the radio + MAC. For SX127x/SX126x radios.
-* [HydroNode](https://github.com/TexhFexLabs/hydronode-esphome): Send any ESPHome sensor to the HydroNode platform with HMAC-signed HTTPS uploads, and drive switches and scripts with typed remote commands.
 * [ntp-server](https://github.com/tiehfood/esphome-gps-pps-ntp-server): ESPHome GPS NTP server
 * [NUT Server](https://github.com/bullshit/esphome-components): ESPHome NUT Server Component
 * [SIP](https://github.com/n-IA-hane/esphome-voip-stack): ESPHome VoIP Stack
