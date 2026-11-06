@@ -11,6 +11,8 @@ To use any of these components in _your_ ESPHome device, check out the documenta
 Know of a cool ESPHome component that is missing?
 Please make a PR!
 
+Components that have graduated to mainline, stopped building, or been abandoned live in the [archive](ARCHIVE.md).
+
 # Components
 
 ## Network Hardware
@@ -21,7 +23,6 @@ Please make a PR!
 
 * [Telnet Server](https://github.com/RoboMagus/esphome-telnet-server): Adds a telnet bridge so that you can send and receive characters on the serial bus.
 * [uart-link](https://github.com/nebulous/esphome-uart-link): Present TCP connections as virtual UARTs for any UART consumer, bridge them to hardware UARTs, and share one serial bus between multiple TCP clients.
-* [syslog](https://github.com/TheStaticTurtle/esphome_syslog): Have your ESPHome device log out via the standard syslog protocol.
 * [Homekit](https://github.com/rednblkx/HAP-ESPHome): Make your ESPHome devices show up in your Apple Home app.
 * [LoRaWAN](https://github.com/moellere/lorawan-for-esphome): Join a LoRaWAN network over OTAA and uplink any ESPHome sensor's values, using RadioLib for the radio + MAC. For SX127x/SX126x radios.
 * [HydroNode](https://github.com/TexhFexLabs/hydronode-esphome): Send any ESPHome sensor to the HydroNode platform with HMAC-signed HTTPS uploads, and drive switches and scripts with typed remote commands.
@@ -36,19 +37,12 @@ Please make a PR!
 * [Qingping CGG3](https://github.com/OperKH/esphome-qingping-cgg3): Read temperature, humidity and battery level from the Qingping Temp & RH Monitor (CGG3) E-Ink thermometer over BLE, no bindkey needed.
 * [BLE ADV](https://github.com/Skrucz/esphome-components): ESPHome for various Chinese lamps that are controlled via BLE advertising
   
-## Distance / Presence Sensors
-
-* [Hi-Link mmWave Radar](https://github.com/patrick3399/Hi-Link_mmWave_Radar_ESPHome): Support for Hi-Link LD class millimeter wave radar modules.
-
 ## Electricity Sensors
 
 * [emporia-vue](https://github.com/emporia-vue-local/esphome): Support for the Emporia Vue 2 energy monitor.
 * [JK-BMS](https://github.com/syssi/esphome-jk-bms): Interfaces with the Jikong Battery Management System over UART or BLE.
 * [p1reader](https://github.com/psvanstrom/esphome-p1reader): For interfacing with the Swedish P1 energy meters.
 * [pipsolar](https://github.com/syssi/esphome-pipsolar): Monitor and control a Pipsolar inverter via RS232.
-* [deye](https://github.com/klatremis/esphome-for-deye): Monitor and control your Deye inverters.
-* [powmr-hybrid-inverter](https://github.com/odya/esphome-powmr-hybrid-inverter): Monitor and control various PowMr Inverter modules.
-* [smg-ii](https://github.com/syssi/esphome-smg-ii): Monitor and control a iSolar/EASUN SMG II inverter.
 * [VictronMPPT](https://github.com/KinDR007/VictronMPPT-ESPHOME): Monitor and control Victron Devices such as a Solar Charge Controller.
 * [UPS HID Component](https://github.com/bullshit/esphome-components): UPS HID Component
 * [dlms-cosem](https://github.com/latonita/esphome-dlms-cosem): ESPHome integration for DLMS/COSEM (SPODES) electricity meters (Energomera CE207/CE307/CE308, Milur 107S, MIR, Nartis, RiM, Pulsar, Aidon, Kamstrup, Landis+Gyr, any HAN, ZPA AM375, ZPA ZE312, Sagemcom XT211 and many others) via RS‑485 or optical port (*).
@@ -57,12 +51,10 @@ Please make a PR!
   
 ## Environment
 
-* [mitsubishiheatpump](https://github.com/geoffdavis/esphome-mitsubishiheatpump): Interface with your Mitsubishi Heatpump for automated climate control.
 * [panasonic-ac](https://github.com/DomiStyle/esphome-panasonic-ac): Interface with your Panasonic Air Conditioner without their "cloud".
 * [panasonic-erv](https://github.com/ShadowZZP/esphome-panasonic-erv): Control your Panasonic ERV / fresh-air heat-recovery ventilator (新风) over its private CN12 bus, no cloud or OEM module needed.
 * [ecodan](https://github.com/gekkekoe/esphome-ecodan-hp): Interface with your Ecodan heatpump.
 * [aux_ac](https://github.com/GrKoR/esphome_aux_ac_component): Direct wifi control of your AUX based air conditioners.
-* [OpenTherm](https://github.com/olegtarasov/esphome-opentherm): Control your OpenTherm-based thermostat from ESPHome.
 * [OpenTherm-otgw](https://github.com/mvdnes/esphome-otgw): ESPHome OpenTherm Gateway The OTGW project can be found here: https://otgw.tclcode.com/
 * [OpenTherm-otgw](https://github.com/gduteil/OpenThermGateway): ESPHome OpenTherm Gateway I'm using this hardware DIYLESS OpenTherm Gateway
 * [OpenTherm-otgw](https://github.com/KPWhiver/opentherm-gateway-esphome): This is an external esphome component to control a Nodoshop Opentherm Gateway.
@@ -70,7 +62,6 @@ Please make a PR!
 * [Samsung HVAC](https://github.com/omerfaruk-aran/esphome_samsung_hvac_bus): Integrate with Samsung HVACs that use the NASA and NonNASA protocols.
 * [Nibe](https://github.com/elupus/esphome-nibe): Control your Nibe Heat Pump over Modbus.
 * [lg-controller](https://github.com/JanM321/esphome-lg-controller): Control your LG Air Conditioner instead of the LG ThinQ integration.
-* [mipurifier](https://github.com/jaromeyer/mipurifier-esphome): Component for Xiaomi Air Purification devices.
 * [HDMI-CEC](https://github.com/Palakis/esphome-native-hdmi-cec): ESPHome devices speak the (machine) language of your living room with this native HDMI-CEC (Consumer Electronics Control) component
 * [MIoT](https://github.com/dhewg/esphome-miot): ESPHome components are designed for MIoT devices
 * [intercom](https://github.com/n-IA-hane/esphome-intercom): ESP32 intercoms and a provider or PBX trunk.
@@ -98,7 +89,6 @@ Please make a PR!
 
 ## Vacuums
 
-* [Roomba Bridge](https://github.com/solarkennedy/roomba-bridge-esphome): Control your Roomba using ESPHome without the internet or the app.
 * [BEAM](https://github.com/ananyevgv/esphome-beam): ESPHome BEAM vacuum cleaner
   
 ## Actuators
@@ -119,7 +109,6 @@ Please make a PR!
 
 * [pumpsaver](https://github.com/lizbit-official/esphome-pumpsaver): Read live volts/amps/watts, trip settings, and the 20-fault history from a SymCom/Littelfuse PumpSaver well-pump protection relay, passively, over its IR status broadcast.
 * [Philips-Smart-Coffee](https://github.com/TillFleisch/ESPHome-Philips-Smart-Coffee): Control your Philips Series 2200/3200 Coffee Machines.
-* [jura coffee](https://github.com/ryanalden/esphome-jura-component): Control your Jura Impressa class coffee machines.
 * [jura-uart-esphome](https://github.com/harryzz/jura-uart-esphome): Replace the Jura Smart Connect dongle with an ESP32 on the service port: counters, alerts, brew progress, brewing and panel lock over MQTT with HA discovery, using Jura's native dongle protocol and a built-in profile database for 75 machines.
 * [Tesla BLE](https://github.com/yoziru/esphome-tesla-ble): Interface with your Tesla over BLE.
 * [igrill](https://github.com/bendikwa/esphome-igrill): Read sensors from iGrill and Pulse BBQs.
