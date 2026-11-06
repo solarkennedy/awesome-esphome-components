@@ -24,7 +24,7 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 ## Network Protocols
 
 * [Telnet Server](https://github.com/RoboMagus/esphome-telnet-server): Adds a telnet bridge so that you can send and receive characters on the serial bus.
-* [uart-link](https://github.com/nebulous/esphome-uart-link): Present TCP connections as virtual UARTs for any UART consumer, bridge them to hardware UARTs, and share one serial bus between multiple TCP clients.
+* [uart-link](https://github.com/nebulous/esphome-uart-link): Use a serial device across the network as if it were wired in: TCP clients and servers that act as UARTs for any UART component, plus N-way bridging between UARTs and sockets. For a plain UART-to-TCP bridge, mainline `uart_tcp` now does that.
 * [Homekit](https://github.com/rednblkx/HAP-ESPHome): Make your ESPHome devices show up in your Apple Home app.
 * [LoRaWAN](https://github.com/moellere/lorawan-for-esphome): Join a LoRaWAN network over OTAA and uplink any ESPHome sensor's values, using RadioLib for the radio + MAC. For SX127x/SX126x radios.
 * [ntp-server](https://github.com/tiehfood/esphome-gps-pps-ntp-server): Serve NTP time on your network from a GPS module with PPS.
