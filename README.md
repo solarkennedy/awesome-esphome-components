@@ -47,8 +47,8 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [VictronMPPT](https://github.com/KinDR007/VictronMPPT-ESPHOME): Monitor and control Victron Devices such as a Solar Charge Controller.
 * [UPS HID](https://github.com/bullshit/esphome-components/tree/main/components/ups_hid): Monitor and control an APC, CyberPower or generic USB HID UPS from an ESP32-S3.
 * [dlms-cosem](https://github.com/latonita/esphome-dlms-cosem): ESPHome integration for DLMS/COSEM (SPODES) electricity meters (Energomera CE207/CE307/CE308, Milur 107S, MIR, Nartis, RiM, Pulsar, Aidon, Kamstrup, Landis+Gyr, any HAN, ZPA AM375, ZPA ZE312, Sagemcom XT211 and many others) via RS‑485 or optical port (*).
-* [mercury200.2](https://github.com/shammysha/esphome-mercury-200-2): Read Mercury 200.2 electricity meters.
-* [apc-ups](https://github.com/samoswall/esphome-apc-ups): ESPHome component to monitor and control an APC UPS via RS232 with MQTT
+* 💤 [mercury200.2](https://github.com/shammysha/esphome-mercury-200-2): Read Mercury 200.2 electricity meters.
+* 💤 [apc-ups](https://github.com/samoswall/esphome-apc-ups): ESPHome component to monitor and control an APC UPS via RS232 with MQTT
   
 ## Environment
 
