@@ -11,6 +11,8 @@ To use any of these components in _your_ ESPHome device, check out the documenta
 Know of a cool ESPHome component that is missing?
 Please make a PR!
 
+💤 marks a component with no commits in over 18 months. It may still work, but no one is actively maintaining it.
+
 Components that have graduated to mainline, stopped building, or been abandoned live in the [archive](ARCHIVE.md).
 
 # Components
@@ -33,7 +35,7 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 ## Bluetooth/BLE
 
 * [OpenHaystack](https://github.com/barrenechea/esphome-config-files/tree/main/components/openhaystack): Puts your ESPHome device onto the Apple Find My network ([blog](https://www.barrenechea.cl/en/projects/openhaystack-esphome/)).
-* [BLE Keyboard](https://github.com/dmamontov/esphome-blekeyboard): Make your ESPHome device a virtual BLE keyboard.
+* 💤 [BLE Keyboard](https://github.com/dmamontov/esphome-blekeyboard): Make your ESPHome device a virtual BLE keyboard.
 * [Qingping CGG3](https://github.com/OperKH/esphome-qingping-cgg3): Read temperature, humidity and battery level from the Qingping Temp & RH Monitor (CGG3) E-Ink thermometer over BLE, no bindkey needed.
 * [BLE ADV](https://github.com/Skrucz/esphome-components): ESPHome for various Chinese lamps that are controlled via BLE advertising
   
@@ -69,7 +71,7 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 ## Light
 
 * [xiaomi_bslamp2](https://github.com/mmakaay/esphome-xiaomi_bslamp2): Integrate with your Xiaomi Mijia Bedside Lamp v2.
-* [desky](https://github.com/ssieb/esphome_components/tree/master/components/desky): Component for controlling your Desky standing desk.
+* 💤 [desky](https://github.com/ssieb/esphome_components/tree/master/components/desky): Component for controlling your Desky standing desk.
 * [Yeelight-ceiling-light](https://github.com/syssi/esphome-yeelight-ceiling-light): Control many different models of Yeelight or Xiaomi lights.
 * [dmx512](https://github.com/andyboeh/esphome-dmx512): Control DMX devices via a RS485 UART.
 * [Matrix Lamp Music Leds / Sound Reactive](https://github.com/andrewjswan/esphome-components): Matrix Lamp Music Leds, Sound Reactive, Giver lamp
