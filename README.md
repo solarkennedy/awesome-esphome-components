@@ -75,7 +75,7 @@ Components that have graduated to mainline, stopped building, or been abandoned 
 * [dmx512](https://github.com/andyboeh/esphome-dmx512): Control DMX devices via a RS485 UART.
 * [Matrix Lamp Music Leds / Sound Reactive](https://github.com/andrewjswan/esphome-components): Matrix Lamp Music Leds, Sound Reactive, Giver lamp
 * [Adaptive lighting](https://github.com/mdvorak/esphome-adaptive-lighting): Adaptive lighting component for ESPHome. It sets the light color temperature based on the current position of the sun.
-* [AC Dimmer](https://github.com/InspectorTrinket/advanced_ac_dimmer): An ESPHome external component for AC phase-angle dimming of mains-connected loads. Designed for real-world installations where timing precision, load compatibility, and flicker-free operation matter.
+* [AC Dimmer](https://github.com/InspectorTrinket/advanced_ac_dimmer): Flicker-free mains phase-angle dimming that goes beyond mainline `ac_dimmer`: brightness curves per load type, kickstart for stubborn LED drivers, MOSFET mismatch compensation, and multiple channels on one zero-cross circuit.
     
 ## Garage / Security
 
