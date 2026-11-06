@@ -24,6 +24,8 @@ The second half is mostly mechanical. The first half is judgment. Use the signal
 2. **Mainline doesn't already do it.** When ESPHome ships an equivalent, the entry graduates and moves to the archive.
    - A repo that overrides a mainline component (shipping its own `ethernet` or `stepper`, say) is fine. What counts is whether the *headline* feature exists in mainline.
    - **Partial graduation:** if mainline has only landed part of it (for example, "part 1: bus core"), keep the entry and note it in the report. Archive it once mainline covers what most users would use it for.
+   - **Overlap that still earns its place:** when a mainline component covers the same device or job, the entry's description has to say what this one adds. For example: "reads PM1.0 and PM10 too (mainline `pm1006` only reports PM2.5)". If you can't name the difference in a phrase, it doesn't belong.
+   - **Already reachable without a component:** if users already get the device another way, such as a BLE sensor that Home Assistant decodes through any ESPHome `bluetooth_proxy`, the component has to add something that path doesn't. Running on the device alone isn't enough.
 3. **It can work today.** It isn't archived on GitHub, and it isn't known to be broken on current ESPHome (no open "broken since 20xx.y" issues left unanswered).
 4. **It isn't mainly a funnel to a commercial cloud.** Components that exist to send data to a vendor's paid platform go against the spirit of the list: local control, getting things out of the cloud. Promotion by itself isn't disqualifying. A vendor publishing a local-control component for their own hardware is welcome.
 
@@ -45,6 +47,7 @@ The second half is mostly mechanical. The first half is judgment. Use the signal
 ## Badges
 
 - 💤 **Stale:** no commits touching the component's code in over 18 months. It stays on the list, because stale isn't the same as broken.
+  - Measure this on the component's own path, not the repo. In a busy multi-component repo, a single component can sit untouched for years.
 - If a 💤 component is also archived on GitHub or known to be broken, it moves to the archive.
 
 ## Entry format
